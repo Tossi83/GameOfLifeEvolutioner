@@ -1,0 +1,57 @@
+.axis
+	{
+    -fx-padding: 0;
+	-fx-spacing: 0;
+	-fx-minor-tick-visible: false;
+	-fx-tick-label-gap: 0;
+	-fx-tick-label-fill: #dfbf9f;
+	//-fx-background-color: #007040;
+	}
+
+.axis .label
+	{
+	-fx-text-fill: #ffdfbf;
+	//-fx-effect: dropshadow( gaussian , rgba(1, 1, 1, 0.5) , 0, 0, 0, 1 );
+	//-fx-border-radius: 5 5 5 5, 20 0 0 3, 20 0 0 2, 20 0 0 1;
+	//-fx-border-color: #705060;
+	//-fx-background-color: #602040;
+    -fx-padding: 0;
+	-fx-spacing: 0;
+	//-fx-background-radius: 5;
+	}
+	
+.chart
+	{
+	-fx-background-color: #604020;
+    -fx-padding: 0 0 -5 -5;
+	-fx-spacing: 0;
+	//-fx-effect: dropshadow( gaussian , rgba(0, 0, 0, 0.5) , 0, 0, 0, 1 );
+	-fx-legend-visible: false;
+	}
+	
+.label
+	{
+	-fx-text-fill: #604020;
+	-fx-effect: dropshadow( gaussian , rgba(1, 1, 1, 0.5) , 0, 1, 0, 1 );
+	}
+	
+.statusPanel
+	{
+	-fx-background-color: #dfbf9f;
+	-fx-background-radius: 5;
+    -fx-padding: 5 10 5 10;
+    -fx-alignment: center-right;
+	}
+	
+.bottomPanel
+	{
+	-fx-background-color: #604020;
+	-fx-spacing: 10;
+	-fx-padding: 10;
+    -fx-alignment: top-left;
+	}
+	
+.root
+	{
+	-fx-background-color: #000000;
+	}
